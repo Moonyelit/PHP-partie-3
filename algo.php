@@ -16,10 +16,19 @@
 // }
 
 // exo 3
-$exo3 = 100;
-$exo33 = 25;
+// $exo3 = 100;
+// $exo33 = 25;
 
-while ($exo3 >= 10) {
-    echo $exo3 * $exo33 . "<br>";
-    $exo3--; 
+// while ($exo3 >= 10) {
+//     echo $exo3 * $exo33 . "<br>";
+//     $exo3--; 
+// }
+
+
+//exo 4
+$exo4 = 1;
+
+while ($exo4 < 10) { 
+    echo $exo4 . "<br>"; 
+    $exo4 += $exo4 / 2; 
 }
